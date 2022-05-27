@@ -32,6 +32,8 @@
 | GET | /signup | New \(Read\) | render signup form |
 | POST | /signup |Create \(Create\) | create new user from form |
 | GET | /user/profile | Show \(Read\) | shows user profile |
+| PUT | /books/:id | Update \(Update\) | updates the user's tags on a specific book |
+| DELETE | /books/:id | Destroy \(Delete\) | deletes the specific book from the user's saved books |
 | GET | / | Show \(Read\) | render homepage with search form|
 | GET | /books/:title | Show \(Read\) | renders results from search |
 | GET | /books/:id | Show \(Read\) | renders detailed info on specific book & allows it to be favorited|
